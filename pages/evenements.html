@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/evenement.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Footy's</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/logo-nav.png" alt="logo footy's" width="50"
+          /></a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-semibold"
+                  aria-current="page"
+                  href="../index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./produit.html"
+                  >Produit</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-semibold"
+                  href="./evenements.html"
+                  >Evenement</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide pt-sm-5 pt-5">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="../img/banniere-slide-2.png"
+              class="d-block w-100"
+              alt="Phote nouveau maillot"
+            />
+            <div class="carousel-caption  d-md-block text-light">
+              <h5>NOUVEAUTE</h5>
+              <p>Les maillots de la saison 2024/2025 sont la !</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="../img/banniere-slide-3.png"
+              class="d-block w-100"
+              alt="Photo mannequin avec maillot Vintage"
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>OFFRE SPECIAL</h5>
+              <p>Un maillot vintage acheté = Un accessoire offert !</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/banniere-slide-4.jpg"
+              class="d-block w-100"
+              alt="Photo Emirates Stadium"
+            />
+            <div class="carousel-caption  d-md-block text-light">
+              <h5>JEU CONCOURS</h5>
+              <p>
+                Incollable sur Arsenal ? Gagnez 2 places pour un match a
+                domicile !
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-actualite m-4">
+        <h2 class="text-center">Actualité</h2>
+        <div
+          class="d-flex align-items-center w-100 justify-content-around flex-wrap"
+        >
+          <div class="image-container mt-1">
+            <img
+              src="../img/smith-rowe-training-la.png"
+              alt="photo d'entrainement"
+              height="200"
+            />
+          </div>
+          <div class="text-container mt-1">
+            <h4 class="mt-4">
+              La deuxième journée en Californie a vu l'équipe continuer à
+              travailler dur avant le match de mercredi contre Bournemouth
+            </h4>
+            <p>
+              L'équipe a eu une séance le matin avant une autre le soir alors
+              qu'elle augmentait progressivement sa charge de travail, se
+              concentrant sur le travail avec le ballon et se préparant pour le
+              match contre les Cherries d'Andoni Iraola.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark d-flex  flex-column align-items-center bg-black">
+      <div class=" d-flex flex-lg-row justify-content-center align-items-center w-100 flex-wrap flex-column"
+    >
+      <div class="d-flex flex-column justify-content-center w-25">
+        <h5 class="text-light align-self-center">RGPD</h5>
+        <a href="" class="text-decoration-none text-light align-self-center text-center"
+          >Politique de remboursement</a
+        >
+        <a href="" class="text-decoration-none text-light align-self-center text-center"
+          >Conditions Génerales Ventes</a
+        >
+        <a href="" class="text-decoration-none text-light align-self-center text-center"
+          >Mentions Légales</a
+        >
+      </div>
+      <div class="d-flex flex-column justify-content-center w-25">
+        <h5 class="text-light  align-self-center pt-3">Pages</h5>
+        <a
+          href="./index.html"
+          class="text-decoration-none text-light align-self-center"
+          >Accueil</a
+        >
+        <a
+          href="./pages/produit.html"
+          class="text-decoration-none text-light align-self-center"
+          >Produits</a
+        >
+        <a href="" class="text-decoration-none text-light align-self-center"
+          >Evenements</a
+        >
+        <a href="" class="text-decoration-none text-light align-self-center"
+          >Contact</a
+        >
+      </div>
+      <div class="d-flex flex-column justify-content-center w-25 h-100">
+        <h5 class="text-light align-self-center text-center">Réseaux Sociaux</h5>
+        <div class="d-flex justify-content-center align-items-center w-100 ">
+          <a href="#"><img src="../img/instagram.png" alt="logo instagram" /></a>
+          <a class="text-light text-decoration-none px-2" href="#">Instagram</a>
+        </div>
+        <div class="d-flex justify-content-center align-items-center py-1">
+          <a href="#"><img src="../img/facebook.png" alt="logo facebook" /></a>
+          <a class="text-light text-decoration-none px-2" href="#">Facebook</a>
+        </div>
+      </div>
+      </div>
+      <span class="text-light mt-2">© 2024,Footy’s. Tous droits réservés</span>
+    </footer>
+
+    <!-- SCRIPT -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../js/script.js"></script>
+  </body>
+</html>

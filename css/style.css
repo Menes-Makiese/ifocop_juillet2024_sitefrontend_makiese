@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.p-slogan {
+  width: 250px;
+  margin: 2rem 3rem;
+}
+
+.p-left {
+  padding-left: 10px;
+}
+
+.m-left {
+  margin-left: 20px;
+}
+.m-right {
+  margin-right: 20px;
+}
+.box {
+  width: 200px;
+  height: 250px;
+}
+
+.border-color {
+  border: 1px solid black;
+}
+
+.box {
+  border-radius: 5%;
+  box-shadow: 0px 0px 6px gray;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.box-element {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.maillot::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/Maillot-Arsenal-Third-2022-2023.png") no-repeat center
+    center;
+  background-size: cover;
+  z-index: -1;
+  border-radius: 5%;
+  filter: brightness(60%);
+  transition: transform 0.2s;
+}
+
+.kit::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/survetement-tech-entrainement-ar.png") no-repeat
+    center center;
+  background-size: cover;
+  z-index: -1;
+  border-radius: 5%;
+  filter: brightness(60%);
+  transition: transform 0.2s;
+}
+
+.accessoire::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/61vBw1SyCUL.png") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  border-radius: 5%;
+  filter: brightness(60%);
+  transition: transform 0.2s;
+}
+.vintage::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/vintage.png") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  border-radius: 5%;
+  filter: brightness(60%);
+  transition: transform 0.2s;
+}
+
+.maillot:hover::before,
+.kit:hover::before,
+.accessoire:hover::before,
+.vintage:hover::before {
+  transform: scale(1.2);
+}
+
+.carousel-inner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  filter: brightness(20%);
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-inner .presentation-text {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.presentation-categorie {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselSlide img {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+}
+
+.cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
+  border: 2px solid white;
+  font-size: 0.8em;
+  width: 130px;
+  height: 60px;
+  color: white;
+ transition: 0.6s ease;
+  border-radius: 5px;
+}
+.cat:hover {
+  background-color: black;
+  transform: scale(1.1);
+  border: 1px solid white;
+}
+
+.border-title {
+ margin: 0 60px;
+  width: 50px;
+  height: 4px;
+  background-color: gray;
+  position: absolute;
+  border-radius: 20px;
+}
+
+footer {
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+}
+
+.nav-link {
+  color: white; 
+  transition: 0.4s ease;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.nav-link.active {
+  background-color: white; 
+  color: black; 
+  border-radius: 5px; 
+}

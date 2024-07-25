@@ -1,0 +1,208 @@
+[
+  {
+    "id": 1,
+    "maillot": "Maillot Saison 24/25 - Homme",
+    "prix": 80,
+    "taille": "XS S M L XL",
+    "sexe": "homme",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_24_25.png"
+  },
+  {
+    "id": 2,
+    "maillot": "Maillot Saison 24/25- Homme",
+    "prix": 80,
+    "taille": "XS S M L XL",
+    "sexe": "homme",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_24_25_blanc.png"
+  },
+  {
+    "id": 3,
+    "maillot": "Maillot Saison 23/24 - Homme",
+    "prix": 65,
+    "sexe": "homme",
+    "taille": "XS S M L XL",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_23_24_bleu.png"
+  },
+  {
+    "id": 4,
+    "maillot": "Maillot Saison 24/25 Gardien - Homme",
+    "prix": 80,
+    "taille": "XS S M L XL",
+    "sexe": "homme",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_24_25_gardien.png"
+  },
+  {
+    "id": 5,
+    "maillot": "Kit Training 23/24 - Homme",
+    "prix": 65,
+    "taille": "XS S M L XL",
+    "sexe": "homme",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_bleu.png"
+  },
+  {
+    "id": 6,
+    "maillot": "Kit Training 24/25 - Homme",
+    "prix": 60,
+    "taille": "XS S M L XL",
+    "sexe": "homme",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_lightblue.png"
+  },
+  {
+    "id": 7,
+    "maillot": "Kit Training 24/25 - Homme",
+    "prix": 60,
+    "taille": "XS S M L XL",
+    "sexe": "homme",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_23_24.png"
+  },
+  {
+    "id": 8,
+    "maillot": "Maillot Vintage 99/00",
+    "prix": 100,
+    "taille": "M L XL",
+    "sexe": "homme",
+    "categorie": "maillot",
+    "vintage": true,
+    "image": "../img/maillot_vintage_99_00.png"
+  },
+  {
+    "id": 9,
+    "maillot": "Maillot Vintage 04/05",
+    "prix": 100,
+    "taille": "M L XL",
+    "sexe": "homme",
+    "categorie": "maillot",
+    "vintage": true,
+    "image": "../img/maillot_vintage_04_05.png"
+  },
+  {
+    "id": 10,
+    "maillot": "Maillot Vintage 95/96",
+    "prix": 100,
+    "taille": "M L XL",
+    "sexe": "homme",
+    "categorie": "maillot",
+    "vintage": true,
+    "image": "../img/maillot_vintage_95_96.png"
+  },
+  {
+    "id": 11,
+    "maillot": "Maillot Saison 24/25 - Femme",
+    "prix": 80,
+    "taille": "XXS XS S M L",
+    "sexe": "femme",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_24_25_noir_femme.png"
+  },
+  {
+    "id": 12,
+    "maillot": "Maillot Saison 24/25 - Femme",
+    "prix": 80,
+    "taille": "XXS XS S M L",
+    "sexe": "femme",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_24_25_rouge_femme.png"
+  },
+  {
+    "id": 13,
+    "maillot": "Maillot Saison 23/24 - Femme",
+    "prix": 80,
+    "taille": "XXS XS S M L",
+    "sexe": "femme",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_23_24_bleu_femme.png"
+  },
+  {
+    "id": 14,
+    "maillot": "Maillot Saison 24/25 - Enfant",
+    "prix": 75,
+    "taille": "7-8 9-10 12-14",
+    "sexe": "enfant",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_noir_enfant.png"
+  },
+  {
+    "id": 15,
+    "maillot": "Maillot Saison 24/25 - Enfant",
+    "prix": 75,
+    "taille": "7-8 9-10 12-14",
+    "sexe": "enfant",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_rouge_enfant.png"
+  },
+  {
+    "id": 16,
+    "maillot": "Maillot Saison 24/25 Gardien - Enfant",
+    "prix": 75,
+    "taille": "7-8 9-10 12-14",
+    "sexe": "enfant",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_jaune_enfant.png"
+  },
+  {
+    "id": 17,
+    "maillot": "Maillot Saison 23/24 - Enfant",
+    "prix": 75,
+    "taille": "7-8 9-10 12-14",
+    "sexe": "enfant",
+    "categorie": "maillot",
+    "vintage": false,
+    "image": "../img/maillot_bleu_enfant.png"
+  },
+  {
+    "id": 17,
+    "maillot": "Arsenal Bague en Argent",
+    "taille": "M L",
+    "prix": 40,
+    "categorie": "accessoire",
+    "vintage": false,
+    "image": "../img/bague.png"
+  },
+  {
+    "id": 18,
+    "maillot": "Arsenal Tasse",
+    "taille": " Taille Unique",
+    "prix": 12,
+    "categorie": "accessoire",
+    "vintage": false,
+    "image": "../img/tasse.png"
+  },
+  {
+    "id": 19,
+    "maillot": "Gunner Montre",
+    "taille": "Taille Unique",
+    "prix": 40,
+    "categorie": "accessoire",
+    "vintage": false,
+    "image": "../img/montre.png"
+  },
+  {
+    "id": 20,
+    "maillot": "Ballon Dédicacé par l'équipe",
+    "taille": "Taille Unique",
+    "prix": 35,
+    "categorie": "accessoire",
+    "vintage": false,
+    "image": "../img/ballon_signe.png"
+  }
+]

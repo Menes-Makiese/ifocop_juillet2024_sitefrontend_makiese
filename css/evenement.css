@@ -1,0 +1,55 @@
+main {
+  min-height: 100vh;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.carousel-inner img {
+  width: 100%;
+  min-height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-caption h5 {
+  font-size: 8vw;
+}
+.carousel-caption p {
+  font-size: 3vw;
+}
+
+.text-container {
+  text-align: justify;
+  max-width: 80%;
+}
+
+footer {
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+}
+
+.nav-link {
+  color: white; 
+  transition: 0.4s ease;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.nav-link.active {
+  background-color: white; 
+  color: black; 
+  border-radius: 5px; 
+}

@@ -1,0 +1,162 @@
+.fiches-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  margin: 100px auto;
+}
+
+.filtres {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  width: 100%;
+  box-shadow: 0px 0px 4px gray;
+  padding: 20px 8px;
+  z-index: 999;
+}
+
+.box-fiches {
+  width: 100%;
+}
+
+.filtres h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.filtres button {
+  width: 25%;
+  font-family: "Poppins";
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.filtres button:active {
+  border: none;
+  background-color: lightgray;
+}
+
+.box-filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px 2px;
+}
+
+.box-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.categorie-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.categorie-form label {
+  font-size: 0.9em;
+  padding-left: 2px;
+  padding-right: 5px;
+}
+
+.text-filtre {
+  padding-right: 20px;
+}
+
+.form-group {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.fiches {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  margin-top: 50px;
+}
+
+.fiches article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  border-radius: 2%;
+  position: relative;
+  padding: 0.3rem;
+}
+
+.fiches img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.maillot-element {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.prix-element {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.taille-element {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.presentation-categorie {
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  width: 100%;
+min-height: 100vh;
+padding-top: 60px;
+
+}
+ .presentation-categorie::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  background: url("../img/banniere_cat.png") no-repeat center
+    center;
+  background-size: cover;
+  z-index: -1;
+  filter: brightness(40%);
+} 
+
+.cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
+  border: 2px solid white;
+  width: 130px;
+  height: 60px;
+  border-radius: 5px;
+}
+

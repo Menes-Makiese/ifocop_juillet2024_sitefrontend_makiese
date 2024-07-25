@@ -1,0 +1,116 @@
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+.banniere_contact p {
+  font-size: 3vw;
+}
+.banniere_contact {
+  margin-top: 76px;
+}
+
+#regBtn {
+  background-color: black;
+  border: none;
+}
+
+.contact-section {
+  min-height: 100vh;
+  padding: 20px;
+  margin-bottom: 150px;
+}
+
+.contact-form {
+  margin-bottom: 80px;
+}
+
+.contact-section h2 {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.container-form ,
+.container-map {
+  flex: 1 1 60%;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+}
+
+input::placeholder {
+  color: darkgrey;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  width: 80%;
+}
+
+textarea {
+  width: 80%;
+  height: 80px;
+  padding-left: 5px;
+  border-radius: 10px;
+}
+
+textarea::placeholder {
+  color: darkgray;
+}
+
+iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+}
+
+#button-submit {
+  width: 100px;
+  margin: 0 auto;
+  border: 1px solid darkgrey;
+  background-color: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-body {
+  height: 550px;
+}
+
+footer {
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+}
