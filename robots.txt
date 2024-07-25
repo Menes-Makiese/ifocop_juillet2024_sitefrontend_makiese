@@ -1,0 +1,5 @@
+#Block only Googlebot
+User-agent: Googlebot
+Disallow: /
+
+https://ifocop-juillet2024-sitefrontend-makiese.vercel.app/sitemap.xml
