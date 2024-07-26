@@ -7,17 +7,17 @@
     "sexe": "homme",
     "categorie": "maillot",
     "vintage": false,
-    "image": "../img/maillot_24_25.png"
+    "image": "../img/maillot_24_25_noir_homme.png"
   },
   {
     "id": 2,
-    "maillot": "Maillot Saison 24/25- Homme",
+    "maillot": "Maillot Saison 24/25 - Homme",
     "prix": 80,
     "taille": "XS S M L XL",
     "sexe": "homme",
     "categorie": "maillot",
     "vintage": false,
-    "image": "../img/maillot_24_25_blanc.png"
+    "image": "../img/maillot_24_25_rouge_homme.png"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "taille": "XS S M L XL",
     "categorie": "maillot",
     "vintage": false,
-    "image": "../img/maillot_23_24_bleu.png"
+    "image": "../img/maillot_23_24_bleu_homme.png"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "sexe": "homme",
     "categorie": "maillot",
     "vintage": false,
-    "image": "../img/maillot_24_25_gardien.png"
+    "image": "../img/maillot_24_25_gardien_homme.png"
   },
   {
     "id": 5,
@@ -137,7 +137,7 @@
     "sexe": "enfant",
     "categorie": "maillot",
     "vintage": false,
-    "image": "../img/maillot_noir_enfant.png"
+    "image": "../img/maillot_24_25_noir_enfant.png"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "sexe": "enfant",
     "categorie": "maillot",
     "vintage": false,
-    "image": "../img/maillot_rouge_enfant.png"
+    "image": "../img/maillot_24_25_rouge_enfant.png"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "sexe": "enfant",
     "categorie": "maillot",
     "vintage": false,
-    "image": "../img/maillot_jaune_enfant.png"
+    "image": "../img/maillot_24_25_gardien_enfant.png"
   },
   {
     "id": 17,
@@ -204,5 +204,66 @@
     "categorie": "accessoire",
     "vintage": false,
     "image": "../img/ballon_signe.png"
+  },
+  {
+    "id": 21,
+    "maillot": "Kit Saison 23/24 - Femme",
+    "prix": 60,
+    "taille": "XXS XS S M L",
+    "sexe": "femme",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_23_24_lightblue_femme.png"
+  },
+  {
+    "id": 22,
+    "maillot": "Kit Saison 23/24 - Homme",
+    "prix": 65,
+    "taille": "S M L XL",
+    "sexe": "homme",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_23_24_lightblue_homme.png"
+  },
+  {
+    "id": 23,
+    "maillot": "Kit Saison 24/25 - Enfant",
+    "prix": 40,
+    "taille": "7-8 9-10 12-14",
+    "sexe": "enfant",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_24_25_bleu_enfant.png"
+  },
+  {
+    "id": 24,
+    "maillot": "Kit Saison 24/25 - Femme",
+    "prix": 60,
+    "taille": "XXS XS S M L",
+    "sexe": "femme",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_24_25_bleu_femme.png"
+  },
+  {
+    "id": 25,
+    "maillot": "Kit Saison 24/25 - Femme",
+    "prix": 65,
+    "taille": "XXS XS S M L",
+    "sexe": "femme",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_24_25_bleu_manche_femme.png"
+  },
+  {
+    "id": 26,
+    "maillot": "Kit Saison 24/25 - Enfant",
+    "prix": 40,
+    "taille": "7-8 9-10 12-14",
+    "sexe": "enfant",
+    "categorie": "kit",
+    "vintage": false,
+    "image": "../img/kit_24_25_bleu2_enfant.png"
   }
+  
 ]

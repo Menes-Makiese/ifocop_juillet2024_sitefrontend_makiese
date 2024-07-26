@@ -78,6 +78,30 @@ categorie.style.color = "white"
   })
 })
 
+let mybutton = document.getElementById("myBtn");
+
+// 
+
+window.addEventListener("scroll", scrollFunction)
+// Montrer le buttton de scroll quand la page est a 600px
+function scrollFunction() {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// Scroll jusqu'au top
+function topFunction() {
+  
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 420;
+}
+mybutton.addEventListener("click", topFunction)
+
+
+
 
 
 

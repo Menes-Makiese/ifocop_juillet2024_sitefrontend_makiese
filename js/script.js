@@ -33,7 +33,7 @@ export function genererElements(typeElement, elements) {
     const element = document.createElement("article");
 
     const imageElement = document.createElement("img");
-    imageElement.setAttribute("alt", `photo de${article.ville}`);
+    imageElement.setAttribute("alt", `photo ${article.maillot}`);
     imageElement.src = article.image;
 
     const maillotElement = document.createElement("h2");
